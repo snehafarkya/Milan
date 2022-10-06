@@ -8,6 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.banner-container .navbar{
+  width: 100%;
+  padding-top: 0em;
+  margin-top: -8em;
 }
 
 .banner-inner {
@@ -31,7 +37,9 @@
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
   }
-
+  .banner-container nav{
+    margin-top: 0em;
+  }
   .banner-content {
     padding-bottom: 50px;
   }

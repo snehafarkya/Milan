@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import BannerBg from "../assets/pictures/milanBg.jpg";
 import "../styles/Banner.css";
+import Navbar from "./Navbar";
 
 const Banner = () => {
   var nav = useNavigate();
@@ -15,7 +16,9 @@ const Banner = () => {
 
   return (
     <>
-      <div className="banner-container" style={{ backGround: BannerBg }}>
+    
+      <div className="banner-container" style={{ backgroundImage: BannerBg }}>
+      <Navbar />
         <div className="banner-inner">
           <div className="banner-content">
             <h1 className="banner-header1">MILAN</h1>

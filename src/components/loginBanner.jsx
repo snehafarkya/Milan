@@ -3,6 +3,7 @@ import picture from "../assets/pictures/loginBanner.svg";
 
 const LoginBanner = () => {
   return (
+
     <div className="login-banner-container">
       <img src={picture} alt="login-img" />
       <br />
